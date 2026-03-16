@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Node
+node_modules/
+
+# QXDM analysis outputs (generated)
+qxdm_analysis_output/
+qxdm_analysis_output_*/
+qxdm_analysis_output*.zip
+
+# Generated plots / artifacts
+*.svg
+
+# PDFs (generated slides/report drafts)
+*.pdf
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Project-specific misc
+*.link.txt
+report/*.jpg
+
+# Slide deck outputs
+qxdm_ca_project_slides*.html
+
+# Presenter notes / reference
+qxdm_ca_presenter_reference.md
+
+# LaTeX report sources (keep local, not committed)
+report/
